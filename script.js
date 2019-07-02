@@ -23,7 +23,7 @@ function workTimer(elem, last) {
   function nowCount() {
     let tech = getTimeRemaining(last);
  
-    daysSpan.textContent = tech.days;
+    daysSpan.textContent = ('0' + tech.days).slice(-2);
     hoursSpan.textContent = ('0' + tech.hours).slice(-2);
     minutesSpan.textContent = ('0' + tech.minutes).slice(-2);
     secondsSpan.textContent = ('0' + tech.seconds).slice(-2);
