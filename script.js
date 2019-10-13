@@ -38,6 +38,6 @@ function workTimer(elem, last) {
   nowCount();
   let timeinterval = setInterval(nowCount, 1000);
 }
- var mainEvent ="July 07 2020 00:00:00 GMT+0400";
+ var mainEvent ="December 07 2019 00:00:00 GMT+0300";
 
 workTimer('timer', mainEvent);
